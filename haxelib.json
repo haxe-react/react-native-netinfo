@@ -1,0 +1,18 @@
+{
+    "name": "react-native-netinfo",
+    "license": "MIT",
+    "tags": [
+      "react",
+      "native",
+      "netinfo"
+    ],
+    "classPath": "src",
+    "contributors": [
+      "zabojad"
+    ],
+    "releasenote": "Initial release",
+    "version": "1.0.0",
+    "url": "https://github.com/haxe-react/react-native-netinfo",
+    "dependencies": {
+    }
+  }
