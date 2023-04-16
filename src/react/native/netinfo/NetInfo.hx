@@ -3,9 +3,11 @@ package react.native.netinfo;
 @:jsRequire('@react-native-community/netinfo', 'default')
 extern class NetInfo {
     static function fetch():js.Promise<NetInfoState>;
-    static function addEventListener(handler:NetInfoState->Void):Void;
+    static function addEventListener(handler:NetInfoState->Void):Unsibscribe;
     static function useNetInfo():NetInfoState;
 }
+
+typedef Unsibscribe = Void->Void;
 
 typedef NetInfoState = {
     type:NetInfoStateType,
